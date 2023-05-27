@@ -40,6 +40,16 @@
     
 }
 
+.associados {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 24px;
+    left: 20px;
+    width: 90%;
+    background-color: rgb(155, 207, 10);
+}
+
 .win {
     background-color: green;
 }
