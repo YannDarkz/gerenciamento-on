@@ -14,6 +14,7 @@
     height: 255px;
     align-items: center;
     justify-content: center;
+    flex-flow: column wrap;
 
 }
 
@@ -40,12 +41,22 @@
     
 }
 
+.blaze {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    width: 150px;
+    font-size: 20px;
+    color: rgb(214, 14, 14);
+    font-weight: 800;
+}
+
 .associados {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 24px;
-    left: 20px;
+    
     width: 90%;
     background-color: rgb(155, 207, 10);
 }
